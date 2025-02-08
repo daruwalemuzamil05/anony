@@ -3,12 +3,12 @@ pipeline   {
     stages {
         stage  ('gitclone') {
             steps  {
-            sh  echo   'THIS IS  GIT'
+            sh  'THIS IS  GIT'
                   }             
 }
         stage ('deploynginx') {
               steps   {
-                  sh   echo  'THIS Is  TEST2' 
+                  sh   'THIS Is  TEST2' 
                     }
               
         }
