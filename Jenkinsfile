@@ -1,10 +1,10 @@
 pipeline   {
   agent    any      
     stages {
-        stage  ('gitclone') {
+        stage  ('build') {
             steps  {
-            sh  'THIS IS  GIT'
+            echo  'THIS IS  GIT'
                   }             
-}
-                }  
+                }
+    }
 }
