@@ -6,5 +6,10 @@ pipeline   {
             echo  'THIS IS  GIT'
                   }             
                 }
+         stage ('deploynginx') {
+              steps   {
+                 echo  'THIS Is  TEST2' 
+                    }
+                }  
     }
 }
