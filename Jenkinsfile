@@ -6,11 +6,5 @@ pipeline   {
             sh  'THIS IS  GIT'
                   }             
 }
-        stage ('deploynginx') {
-              steps   {
-                  sh   'THIS Is  TEST2' 
-                    }
-              
-        }
                 }  
 }
